@@ -1,1 +1,2 @@
 # KDAG-WEB-25CH10028-AbhyuditaTripathi
+My name is Abhyudita Tripathi. I am a first year undergraduate student of the department of Chemical Engineering enrolled in it's B.Tech Course. I am a boarder of Lal Bahadur Shastri Hall of Residence. I am from Mumbai, Maharashtra.
