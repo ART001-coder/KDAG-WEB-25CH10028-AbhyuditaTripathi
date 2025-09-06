@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KDAG Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>Kharagpur <span>Data</span> Analytics Group Quiz</header>
+  
+  <div class="container">
+    <form id="quizForm">
+
+      <div class="question">
+        <h3>1. What does HTML stand for?</h3>
+        <div class="options">
+          <label><input type="radio" name="q1" value="a"> Hyperlinks and Text Markup Language</label>
+          <label><input type="radio" name="q1" value="b"> Hyper Text Markup Language</label>
+          <label><input type="radio" name="q1" value="c"> Home Tool Markup Language</label>
+          <label><input type="radio" name="q1" value="d"> Hyperlink Transfer Markup Language</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>2. Which company developed JavaScript?</h3>
+        <div class="options">
+          <label><input type="radio" name="q2" value="a"> Microsoft</label>
+          <label><input type="radio" name="q2" value="b"> Sun Microsystems</label>
+          <label><input type="radio" name="q2" value="c"> Netscape</label>
+          <label><input type="radio" name="q2" value="d"> Oracle</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>3. Which of these is a relational database?</h3>
+        <div class="options">
+          <label><input type="radio" name="q3" value="a"> MongoDB</label>
+          <label><input type="radio" name="q3" value="b"> PostgreSQL</label>
+          <label><input type="radio" name="q3" value="c"> Cassandra</label>
+          <label><input type="radio" name="q3" value="d"> Redis</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>4. In Machine Learning, what is overfitting?</h3>
+        <div class="options">
+          <label><input type="radio" name="q4" value="a"> When model performs well on both training and test data</label>
+          <label><input type="radio" name="q4" value="b"> When a model memorizes training data but fails on unseen data</label>
+          <label><input type="radio" name="q4" value="c"> When a model cannot fit training data properly</label>
+          <label><input type="radio" name="q4" value="d"> When training without labels</label>
+        </div>
+      </div>
+
+
+
+      <div class="question">
+        <h3>5. What does CSS stand for?</h3>
+        <div class="options">
+          <label><input type="radio" name="q5" value="a"> Computer Style Sheets</label>
+          <label><input type="radio" name="q5" value="b"> Creative Style System</label>
+          <label><input type="radio" name="q5" value="c"> Cascading Style Sheets</label>
+          <label><input type="radio" name="q5" value="d"> Colorful Style Syntax</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="submitQuiz()">Submit</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
